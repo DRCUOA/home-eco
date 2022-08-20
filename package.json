@@ -1,0 +1,33 @@
+{
+  "name": "home-eco",
+  "version": "0.0.1",
+  "description": "home eco app for tracking household expenses",
+  "main": "app.js",
+  "scripts": {
+    "start": "DEBUG=app* nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DRCUOA/home-eco.git"
+  },
+  "keywords": [
+    "shopping",
+    "household",
+    "price",
+    "track"
+  ],
+  "author": "nzwebbapps.nz richard clark",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/DRCUOA/home-eco/issues"
+  },
+  "homepage": "https://github.com/DRCUOA/home-eco#readme",
+  "dependencies": {
+    "-": "^0.0.1",
+    "debug": "^4.3.4",
+    "express": "^4.18.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.19",
+    "save": "^2.5.0"
+  }
+}
