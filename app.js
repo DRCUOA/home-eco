@@ -8,7 +8,7 @@ const { monitorEventLoopDelay } = require('perf_hooks');
 
 app.get('/', function start(req, res) {
   console.log(`index route up`);
-  res.send('Hellooo!!!')
+  res.send('Hi!')
 })
 
 debug('debug running')
