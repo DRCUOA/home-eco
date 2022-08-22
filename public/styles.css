@@ -1,0 +1,22 @@
+:root {
+  --showwhere: 1px solid red;
+}
+
+body {
+ background-color: rgb(200, 198, 198);
+}
+
+.container {
+  border: var(--showwhere);
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+}
+
+#comments-section {
+  background-color:whitesmoke;
+}
+
+#comments-section > p {
+  border: 2px dashed blueviolet;
+}
